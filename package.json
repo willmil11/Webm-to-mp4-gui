@@ -1,0 +1,36 @@
+{
+  "name": "webm-to-mp4-gui",
+  "version": "1.0.4",
+  "description": "A gui app to convert webm video files into regular mp4 files.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willmil11/Webm-to-mp4-gui.git"
+  },
+  "keywords": [
+    "converter",
+    "webm",
+    "mp4",
+    "gui",
+    "node.js",
+    "electron",
+    "javascript"
+  ],
+  "author": "Willmil11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willmil11/Webm-to-mp4-gui/issues"
+  },
+  "homepage": "https://github.com/willmil11/Webm-to-mp4-gui#readme",
+  "dependencies": {
+    "webm-to-mp4": "^1.0.0",
+    "electron": "^26.2.2"
+  },
+  "bin": {
+    "webm2mp4": "run.js"
+  }
+}
